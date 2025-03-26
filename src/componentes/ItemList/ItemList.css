@@ -1,0 +1,32 @@
+.section-1{
+
+    border-radius: 20px;
+    width: 80%;
+    height: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+
+}
+
+.botonProduct{
+
+    border-radius: 100px;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid  rgb(2, 2, 2) ;
+    color: white;
+}
+
+.productContainer{
+    text-align: center;
+    width: 35%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    
+}
+
+.productContainer img{
+    width: 70%;
+}

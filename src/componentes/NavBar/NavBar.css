@@ -1,0 +1,30 @@
+
+nav{
+    display: flex;
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+}
+
+
+h1 {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}

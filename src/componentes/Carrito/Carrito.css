@@ -1,0 +1,15 @@
+.imgCarrito{
+    width: 30px;
+    filter: invert();
+
+}
+
+.imgCarrito:hover{
+     border-radius: 100px;
+    background-color: white;
+    filter: none;
+
+}
+
+.boxCarrito {padding-left: 10px;
+    padding-right: 20px;}
