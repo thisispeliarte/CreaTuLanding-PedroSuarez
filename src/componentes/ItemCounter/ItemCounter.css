@@ -1,0 +1,12 @@
+.containerContador{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerContador button{
+    background-color: rgb(39, 37, 46);
+    color: white;
+    width: 45px;
+    height: 45px;
+}

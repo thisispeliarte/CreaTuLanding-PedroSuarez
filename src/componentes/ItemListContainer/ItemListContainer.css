@@ -1,0 +1,9 @@
+.Itemcontainer{
+    width: 80%;
+    border-radius: 30px;
+    background-image: url("src/assets/backgrounds-Cyv-world.png");
+    height: 150px;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}

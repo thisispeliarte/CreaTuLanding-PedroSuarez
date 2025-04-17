@@ -1,23 +1,14 @@
 import React from 'react'
-import './ItemList.css';
-import ItemConteiner from './ItemConteiner';
+import Item from '../Item/Item'
+import './ItemList.css'
 
-const ItemList = () => {
+const ItemList = ({productos}) => {
+
+
   return (
-    <>
-    <section className='section-1'>
-
-    <ItemConteiner ProductName="Helmet RazN5"/>
-    <ItemConteiner ProductName="Helmet Raz24"/>
-    <ItemConteiner ProductName="Helmet Kit34"/>
-
-    </section>
-    
-    
-    
-    
-    
-    </>
+    <div className='contenedorProductos'>
+        {productos.map(item => <Item key={item.id} {...item}/>)}
+    </div>
   )
 }
 

@@ -8,9 +8,13 @@ html, body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  background:rgb(236, 236, 236);
-
-}
+  background: linear-gradient(147deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  /*background-image: url("/public/backgrounds-Cyv-world.png");
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+  /*background: linear-gradient(153deg,rgba(2, 0, 36, 1) 32%, rgba(9, 9, 121, 1) 70%, rgba(0, 255, 179, 1) 100%);
+*/}
 
 #root {
   display: flex;
@@ -24,10 +28,15 @@ html, body {
 .heroSection{
 width: 80%;
 border-radius: 20px;
-height: 200px;
 align-items: center;
-background-image: url("src/assets/backgrounds-Cyv-world.png");
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 margin-top: 30px;
+padding-top: 20px;
+padding-bottom: 25px;
 
 }
 
