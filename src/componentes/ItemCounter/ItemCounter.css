@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .containerContador button{
@@ -9,4 +10,14 @@
     color: white;
     width: 45px;
     height: 45px;
+}
+.contador1{display: flex;
+}
+
+.contador1 button {
+    margin: 10px
+}
+
+.conteinerAgregar button{
+    width: 100%;
 }

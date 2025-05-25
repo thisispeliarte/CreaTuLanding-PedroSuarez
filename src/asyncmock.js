@@ -1,4 +1,4 @@
-const misProductos = [
+/*const misProductos = [
     {id:"Helmet1", nombre:"Helmet RazN5",stock:10, precio: 2450, img: "/HELMET 2-10.png", idCat:"Helmet",},
     {id:"Helmet2", nombre:"Helmet Raz24",stock:10, precio: 2450, img: "/HELMET 2-09.png", idCat:"Helmet",},
     {id:"Helmet3", nombre:"Helmet RazN65",stock:10, precio: 2450, img: "/HELMET 2-11.png", idCat:"Helmet",},
@@ -44,4 +44,4 @@ export const getProductosPorCategoria = (idCategoria) => {
         }, 100)
 
     })
-}
+}*/
