@@ -4,3 +4,9 @@
     padding: 10px;
     filter: invert();
 }
+
+strong{padding: 3px;
+    padding-right: 9.5px;
+    justify-content: center;
+    background-color: #0081e8;
+    border-radius: 100px;}
